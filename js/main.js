@@ -246,8 +246,9 @@
   }
 
   /* ---------- Palavra rotativa do hero ---------- */
-  function startRotate(words) {
+  function startRotate(rawWords) {
     var el = $("#rotateWord");
+    var words = rawWords.map(function (w) { return w.replace(/ /g, "\u00a0"); });
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     el.classList.add("is-typing");
     if (reduced) { el.textContent = words.join(" / "); return; }
