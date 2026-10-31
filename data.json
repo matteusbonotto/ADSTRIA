@@ -1,0 +1,191 @@
+{
+  "lang": "pt-BR",
+  "htmlTitle": "ADSTRIA | Publicidade digital e tráfego que converte",
+  "metaDescription": "ADSTRIA. Publicidade digital, AdSense e tráfego inteligente para colocar o seu projeto na frente das pessoas certas.",
+  "brand": {
+    "name": "ADSTRIA",
+    "tagline": "Publicidade digital e tráfego"
+  },
+  "nav": [
+    { "label": "Serviços", "href": "#servicos" },
+    { "label": "Método", "href": "#metodo" },
+    { "label": "Diferenciais", "href": "#diferenciais" },
+    { "label": "Resultados", "href": "#resultados" },
+    { "label": "FAQ", "href": "#duvidas" }
+  ],
+  "hero": {
+    "badge": "Publicidade digital e tráfego",
+    "title": "Seu projeto no topo com",
+    "rotating": [
+      "tráfego de verdade",
+      "anúncios que vendem",
+      "audiência qualificada",
+      "resultados medíveis"
+    ],
+    "subtitle": "A ADSTRIA conecta o seu projeto às pessoas certas. Publicidade no AdSense, mídia paga e tráfego planejado, executado e otimizado por quem entende de conversão.",
+    "ctaPrimary": { "label": "Quero crescer agora", "href": "#contato" },
+    "ctaSecondary": { "label": "Ver serviços", "href": "#servicos" },
+    "stats": [
+      { "value": 120, "suffix": "+", "label": "projetos impulsionados" },
+      { "value": 38, "suffix": "%", "label": "de redução média nos custos" },
+      { "value": 4.8, "suffix": "x", "label": "ROAS médio gerado" },
+      { "value": 98, "suffix": "%", "label": "dos clientes renovam" }
+    ]
+  },
+  "marquee": [
+    "ADSENSE", "TRÁFEGO PAGO", "GOOGLE ADS", "META ADS",
+    "CRIATIVOS", "AUDIÊNCIA", "CONVERSÃO", "MONETIZAÇÃO"
+  ],
+  "sections": {
+    "services": {
+      "kicker": "O que a gente faz",
+      "title": "Do clique à conversão",
+      "subtitle": "Serviços pensados para transformar audiência em resultado. Cada frente é executada, medida e otimizada de forma contínua."
+    },
+    "method": {
+      "kicker": "Como funciona",
+      "title": "Método ADSTRIA",
+      "subtitle": "Um processo enxuto e comprovado. Do primeiro diagnóstico à otimização contínua, cada etapa tem objetivo e prazo."
+    },
+    "differentials": {
+      "kicker": "Por que a gente",
+      "title": "Por que a ADSTRIA",
+      "subtitle": "Não vendemos promessa. Vendemos processo, dados e um time que responde rápido."
+    },
+    "results": {
+      "kicker": "Resultados",
+      "title": "Quem já cresceu com a gente",
+      "subtitle": "Histórias de clientes que apostaram em processo, dados e paciência estratégica."
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Perguntas frequentes",
+      "subtitle": "As dúvidas comuns de quem pensa em começar. Ficou alguma? Fale com a gente."
+    }
+  },
+  "services": [
+    {
+      "title": "Publicidade e AdSense",
+      "text": "Configuramos, otimizamos e escalamos suas contas de AdSense para monetizar cada visita sem comprometer a experiência de quem navega."
+    },
+    {
+      "title": "Tráfego pago",
+      "text": "Campanhas em Google Ads, Meta Ads e Bing com segmentação cirúrgica para colocar seu anúncio diante de quem realmente pode comprar."
+    },
+    {
+      "title": "Criativos e copy",
+      "text": "Textos, imagens e anúncios com gancho forte. O criativo é a primeira conversa com o seu cliente e a gente capricha nela."
+    },
+    {
+      "title": "SEO e tráfego orgânico",
+      "text": "Conteúdo e autoridade que atraem visitas constantes sem depender só de anúncio. Tráfego que se acumula com o tempo."
+    },
+    {
+      "title": "Analytics e relatórios",
+      "text": "Você acompanha cada real investido. Dashboards claros, métricas diretas e otimizações sem enrolação."
+    }
+  ],
+  "method": [
+    {
+      "title": "Diagnóstico",
+      "text": "Auditamos sua presença digital, suas contas e seu mercado para encontrar onde está o vazamento."
+    },
+    {
+      "title": "Estratégia",
+      "text": "Montamos o plano de mídia, as personas e os ganchos de comunicação que norteiam cada campanha."
+    },
+    {
+      "title": "Execução",
+      "text": "Ativamos anúncios, criativos e otimizações com testes constantes de segmentação, oferta e criativo."
+    },
+    {
+      "title": "Escala",
+      "text": "O que converte ganha verba. O que não converte é cortado. Simples assim, com dados na mesa."
+    }
+  ],
+  "differentials": [
+    {
+      "title": "Foco em CAC e ROAS",
+      "text": "Toda decisão passa pelo custo de aquisição e pelo retorno real. Se não dá retorno, muda."
+    },
+    {
+      "title": "Relatórios transparentes",
+      "text": "Dashboard ao vivo com o que está acontecendo nas suas contas, sem jargão e sem filtro."
+    },
+    {
+      "title": "Pessoas, não robôs",
+      "text": "Suas campanhas são gerenciadas por especialistas humanos que entendem do seu negócio."
+    },
+    {
+      "title": "Criativos próprios",
+      "text": "Nada de usar o mesmo anúncio de todo mundo. Material exclusivo feito para a sua marca."
+    },
+    {
+      "title": "Escala quando dá certo",
+      "text": "O modelo é feito para crescer. Verba, mercados novos e canais extras quando os números confirmam."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Marina Duarte",
+      "role": "Fundadora da Loja Lumina",
+      "text": "Em três meses o custo por clique caiu pela metade e as vendas dobraram. Pela primeira vez eu entendo para onde vai cada real."
+    },
+    {
+      "name": "Rafael Campos",
+      "role": "Marketing da TechNube",
+      "text": "O time tratou a gente como parceria de verdade. Relatório claro toda semana e ajustes rápidos. O ROAS saiu de 1.8 para 4.2."
+    },
+    {
+      "name": "Beatriz Salles",
+      "role": "CEO da Aroma Doce",
+      "text": "Já tinha tentado agência antes e foi frustrante. Aqui a conversa é outra: números, prazos e nenhum discurso pronto."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto custa para começar?",
+      "a": "Varia com o seu segmento e o tamanho das campanhas. No primeiro diagnóstico estimamos a verba mínima e projetamos o CAC esperado, sem surpresa no fim do mês."
+    },
+    {
+      "q": "Em quanto tempo vejo resultado?",
+      "a": "Tráfego pago entrega volume nas primeiras semanas. O CAC se estabiliza entre o segundo e o terceiro mês, quando a otimização já trabalhou a favor."
+    },
+    {
+      "q": "O que é AdSense e como a ADSTRIA ajuda?",
+      "a": "AdSense é o programa de anúncios que monetiza seu site ou canal. Cuidamos da configuração, da otimização dos blocos e do aumento do CPM."
+    },
+    {
+      "q": "Preciso de um site pronto para começar?",
+      "a": "Não. Trabalhamos também o tráfego para suas redes e landings. Mas, para converter, um bom destino faz toda a diferença, e ajudamos a estruturar."
+    },
+    {
+      "q": "Vocês trabalham só com Google?",
+      "a": "Não. Atuamos com Meta, Bing e TikTok Ads. A plataforma certa depende do seu público e do seu objetivo."
+    }
+  ],
+  "cta": {
+    "title": "Pronto para vender mais?",
+    "text": "Conte a sua meta e receba um diagnóstico gratuito do seu tráfego atual. Sem compromisso e com resposta rápida.",
+    "button": { "label": "Quero meu diagnóstico gratuito" }
+  },
+  "diffCta": { "label": "Vamos conversar", "href": "#contato" },
+  "footer": {
+    "about": "A ADSTRIA é uma agência digital especializada em publicidade, AdSense e tráfego. Transformamos audiência em resultado com método, dados e escuta atenta.",
+    "linksTitle": "Navegue",
+    "note": "Feito com foco em performance"
+  },
+  "social": [
+    { "slug": "instagram", "url": "https://instagram.com/adstria" },
+    { "slug": "facebook", "url": "https://facebook.com/adstria" },
+    { "slug": "linkedin", "url": "https://linkedin.com/company/adstria" },
+    { "slug": "youtube", "url": "https://youtube.com/@adstria" }
+  ],
+  "contact": {
+    "email": "contato@adstria.com.br",
+    "phone": "+55 11 9090-9090",
+    "whatsapp": "5511909090909",
+    "address": "São Paulo, São Paulo",
+    "hours": "Segunda a sexta, das 9h às 18h"
+  }
+}

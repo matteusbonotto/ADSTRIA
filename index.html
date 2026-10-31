@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADSTRIA | Publicidade digital e tráfego que converte</title>
+<meta name="description" content="ADSTRIA. Publicidade digital, AdSense e tráfego inteligente para colocar o seu projeto na frente das pessoas certas.">
+<meta name="theme-color" content="#0A0E12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0E12'/%3E%3Ctext x='32' y='45' font-family='Arial, sans-serif' font-size='38' font-weight='900' text-anchor='middle' fill='%2330DAD0'%3EA%3C/text%3E%3C/svg%3E">
+<script>(function(){try{var t=localStorage.getItem('adstria-theme');if(!t){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='dark';}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-in">
+    <a class="brand" href="#top" data-scroll aria-label="ADSTRIA, voltar ao início">
+      <img class="logo logo--dark" src="assets/branco.svg" alt="">
+      <img class="logo logo--light" src="assets/cor.svg" alt="">
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Menu principal">
+      <ul class="nav-list" id="navList"></ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro e escuro">
+        <i class="bi bi-sun-fill icon icon--sun" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars-fill icon icon--moon" aria-hidden="true"></i>
+      </button>
+      <a class="btn btn--solid nav-cta" id="navCta" href="#contato" data-scroll>Fale conosco</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="top">
+  <canvas class="fx-canvas" id="fxCanvas" aria-hidden="true"></canvas>
+  <div class="blob blob--a" aria-hidden="true"></div>
+  <div class="blob blob--b" aria-hidden="true"></div>
+
+  <div class="container hero-in">
+    <div class="hero-copy">
+      <span class="eyebrow reveal" data-replace="hero.badge"></span>
+      <h1 class="hero-title reveal" data-d="1">
+        <span class="hero-title-main" data-replace="hero.title"></span>
+        <span class="rotate" id="rotateWrap" aria-live="polite">
+          <span class="rotate-word" id="rotateWord"></span>
+        </span>
+      </h1>
+      <p class="hero-sub reveal" data-d="2" data-replace="hero.subtitle"></p>
+      <div class="hero-actions reveal" data-d="3">
+        <a class="btn btn--solid btn--lg" id="ctaPrimary" href="#contato" data-scroll></a>
+        <a class="btn btn--ghost btn--lg" id="ctaSecondary" href="#servicos" data-scroll></a>
+      </div>
+    </div>
+
+    <div class="hero-art reveal" data-d="3" aria-hidden="true">
+      <div class="art-orbit art-orbit--ring"></div>
+      <div class="art-blob"></div>
+      <div class="art-card art-card--roas">
+        <span class="art-card-label">ROAS</span>
+        <span class="art-card-value">4.8x</span>
+        <svg class="spark" viewBox="0 0 120 40" preserveAspectRatio="none"><polyline class="spark-line" points="0,34 18,28 36,30 54,20 72,22 90,12 120,6"/></svg>
+      </div>
+      <div class="art-card art-card--clicks">
+        <span class="art-card-label">Cliques no mês</span>
+        <span class="art-card-value">+231k</span>
+        <div class="bars">
+          <i style="height:34%"></i><i style="height:52%"></i><i style="height:41%"></i><i style="height:66%"></i><i style="height:58%"></i><i style="height:82%"></i><i style="height:100%"></i>
+        </div>
+      </div>
+      <div class="art-chip art-chip--cpm">
+        <span class="chip-ico"><i class="bi bi-arrow-down" aria-hidden="true"></i></span> CPM -38%
+      </div>
+      <div class="art-chip art-chip--ctr">
+        CTR 6.2%
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" id="heroStatsWrap">
+    <div class="container hero-stats-grid" id="heroStats"></div>
+  </div>
+</section>
+
+<div class="marquee" id="marqueeWrap" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<section class="section services" id="servicos">
+  <span class="bigword" aria-hidden="true">ADSTRIA</span>
+  <div class="container">
+    <div class="section-head reveal" id="servicosHead">
+      <span class="kicker" data-replace="sections.services.kicker"></span>
+      <h2 class="section-title" data-replace="sections.services.title"></h2>
+      <p class="section-sub" data-replace="sections.services.subtitle"></p>
+    </div>
+    <ol class="service-list" id="serviceList"></ol>
+  </div>
+</section>
+
+<section class="section method" id="metodo">
+  <div class="container">
+    <div class="section-head reveal" id="metodoHead">
+      <span class="kicker" data-replace="sections.method.kicker"></span>
+      <h2 class="section-title" data-replace="sections.method.title"></h2>
+      <p class="section-sub" data-replace="sections.method.subtitle"></p>
+    </div>
+    <ol class="method-list" id="methodList"></ol>
+  </div>
+</section>
+
+<section class="section diffs" id="diferenciais">
+  <div class="container diffs-grid">
+    <div class="diffs-intro reveal" id="diferenciaisHead">
+      <span class="kicker" data-replace="sections.differentials.kicker"></span>
+      <h2 class="section-title" data-replace="sections.differentials.title"></h2>
+      <p class="section-sub" data-replace="sections.differentials.subtitle"></p>
+      <a class="link-arrow" id="diffsCta" href="#contato" data-scroll></a>
+    </div>
+    <ul class="diff-list" id="diffList"></ul>
+  </div>
+</section>
+
+<section class="section results" id="resultados">
+  <div class="container">
+    <div class="section-head reveal" id="resultsHead">
+      <span class="kicker" data-replace="sections.results.kicker"></span>
+      <h2 class="section-title" data-replace="sections.results.title"></h2>
+      <p class="section-sub" data-replace="sections.results.subtitle"></p>
+    </div>
+    <div class="tst-grid" id="testimonialList"></div>
+  </div>
+</section>
+
+<section class="section faq" id="duvidas">
+  <div class="container faq-cols">
+    <div class="section-head reveal" id="faqHead">
+      <span class="kicker" data-replace="sections.faq.kicker"></span>
+      <h2 class="section-title" data-replace="sections.faq.title"></h2>
+      <p class="section-sub" data-replace="sections.faq.subtitle"></p>
+    </div>
+    <div class="faq-list reveal" data-d="1" id="faqList"></div>
+  </div>
+</section>
+
+<section class="section ctasection" id="contato">
+  <div class="container">
+    <div class="cta-block reveal">
+      <h2 class="cta-title" data-replace="cta.title"></h2>
+      <p class="cta-text" data-replace="cta.text"></p>
+      <a class="btn btn--invert btn--lg" id="ctaBtn" href="#contato"></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img class="logo logo--dark" src="assets/branco.svg" alt="">
+      <img class="logo logo--light" src="assets/cor.svg" alt="">
+      <p class="footer-about" data-replace="footer.about"></p>
+      <ul class="social-list" id="socialList" aria-label="Redes sociais"></ul>
+    </div>
+    <div class="footer-col" id="footerLinksCol">
+      <h3 class="footer-col-title" data-replace="footer.linksTitle"></h3>
+      <ul class="footer-links" id="footerLinks"></ul>
+    </div>
+    <div class="footer-col" id="footerContactCol">
+      <h3 class="footer-col-title">Contato</h3>
+      <ul class="contact-list">
+        <li data-contact="email"><a id="contactEmail" rel="noopener"></a></li>
+        <li data-contact="phone"><a id="contactPhone" rel="noopener"></a></li>
+        <li data-contact="address"><span id="contactAddress"></span></li>
+        <li data-contact="hours"><span id="contactHours"></span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="container footer-bar-in">
+      <span id="copyright"></span>
+      <span class="footer-note" data-replace="footer.note"></span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+  <i class="bi bi-whatsapp" aria-hidden="true"></i>
+</a>
+
+<noscript><p style="padding:16px;text-align:center">Ative o JavaScript para visualizar o conteúdo da página.</p></noscript>
+<script src="js/main.js"></script>
+</body>
+</html>
