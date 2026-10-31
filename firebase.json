@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "**/.*",
+      "**/node_modules/**",
+      ".env",
+      ".env.*",
+      "**/*.log"
+    ],
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ],
+    "headers": [
+      { "source": "**/*.svg", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
+      { "source": "css/**", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] },
+      { "source": "js/**", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] },
+      { "source": "data.json", "headers": [{ "key": "Cache-Control", "value": "no-cache, max-age=0" }] }
+    ]
+  }
+}
