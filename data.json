@@ -10,7 +10,6 @@
     { "label": "Serviços", "href": "#servicos" },
     { "label": "Método", "href": "#metodo" },
     { "label": "Diferenciais", "href": "#diferenciais" },
-    { "label": "Resultados", "href": "#resultados" },
     { "label": "FAQ", "href": "#duvidas" }
   ],
   "hero": {
@@ -25,12 +24,7 @@
     "subtitle": "A ADSTRIA conecta o seu projeto às pessoas certas. Publicidade no AdSense, mídia paga e tráfego planejado, executado e otimizado por quem entende de conversão.",
     "ctaPrimary": { "label": "Quero crescer agora", "href": "#contato" },
     "ctaSecondary": { "label": "Ver serviços", "href": "#servicos" },
-    "stats": [
-      { "value": 120, "suffix": "+", "label": "projetos impulsionados" },
-      { "value": 38, "suffix": "%", "label": "de redução média nos custos" },
-      { "value": 4.8, "suffix": "x", "label": "ROAS médio gerado" },
-      { "value": 98, "suffix": "%", "label": "dos clientes renovam" }
-    ]
+    "stats": []
   },
   "marquee": [
     "ADSENSE", "TRÁFEGO PAGO", "GOOGLE ADS", "META ADS",
@@ -51,11 +45,6 @@
       "kicker": "Por que a gente",
       "title": "Por que a ADSTRIA",
       "subtitle": "Não vendemos promessa. Vendemos processo, dados e um time que responde rápido."
-    },
-    "results": {
-      "kicker": "Resultados",
-      "title": "Quem já cresceu com a gente",
-      "subtitle": "Histórias de clientes que apostaram em processo, dados e paciência estratégica."
     },
     "faq": {
       "kicker": "FAQ",
@@ -125,23 +114,7 @@
       "text": "O modelo é feito para crescer. Verba, mercados novos e canais extras quando os números confirmam."
     }
   ],
-  "testimonials": [
-    {
-      "name": "Marina Duarte",
-      "role": "Fundadora da Loja Lumina",
-      "text": "Em três meses o custo por clique caiu pela metade e as vendas dobraram. Pela primeira vez eu entendo para onde vai cada real."
-    },
-    {
-      "name": "Rafael Campos",
-      "role": "Marketing da TechNube",
-      "text": "O time tratou a gente como parceria de verdade. Relatório claro toda semana e ajustes rápidos. O ROAS saiu de 1.8 para 4.2."
-    },
-    {
-      "name": "Beatriz Salles",
-      "role": "CEO da Aroma Doce",
-      "text": "Já tinha tentado agência antes e foi frustrante. Aqui a conversa é outra: números, prazos e nenhum discurso pronto."
-    }
-  ],
+  "testimonials": [],
   "faq": [
     {
       "q": "Quanto custa para começar?",
@@ -165,27 +138,22 @@
     }
   ],
   "cta": {
-    "title": "Pronto para vender mais?",
+    "title": "Pronto para começar?",
     "text": "Conte a sua meta e receba um diagnóstico gratuito do seu tráfego atual. Sem compromisso e com resposta rápida.",
     "button": { "label": "Quero meu diagnóstico gratuito" }
   },
   "diffCta": { "label": "Vamos conversar", "href": "#contato" },
   "footer": {
-    "about": "A ADSTRIA é uma agência digital especializada em publicidade, AdSense e tráfego. Transformamos audiência em resultado com método, dados e escuta atenta.",
+    "about": "A ADSTRIA é uma operação digital especializada em publicidade, AdSense e tráfego. Transformamos audiência em resultado com método, dados e escuta atenta.",
     "linksTitle": "Navegue",
     "note": "Feito com foco em performance"
   },
-  "social": [
-    { "slug": "instagram", "url": "https://instagram.com/adstria" },
-    { "slug": "facebook", "url": "https://facebook.com/adstria" },
-    { "slug": "linkedin", "url": "https://linkedin.com/company/adstria" },
-    { "slug": "youtube", "url": "https://youtube.com/@adstria" }
-  ],
+  "social": [],
   "contact": {
-    "email": "contato@adstria.com.br",
-    "phone": "+55 11 9090-9090",
-    "whatsapp": "5511909090909",
-    "address": "São Paulo, São Paulo",
-    "hours": "Segunda a sexta, das 9h às 18h"
+    "email": "",
+    "phone": "",
+    "whatsapp": "",
+    "address": "",
+    "hours": ""
   }
 }
