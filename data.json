@@ -148,12 +148,18 @@
     "linksTitle": "Navegue",
     "note": "Feito com foco em performance"
   },
-  "social": [],
+  "social": [
+    { "slug": "instagram", "url": "https://instagram.com/adstria" },
+    { "slug": "facebook", "url": "https://facebook.com/adstria" },
+    { "slug": "linkedin", "url": "https://linkedin.com/company/adstria" },
+    { "slug": "youtube", "url": "https://youtube.com/@adstria" },
+    { "slug": "tiktok", "url": "https://tiktok.com/@adstria" }
+  ],
   "contact": {
-    "email": "",
-    "phone": "",
-    "whatsapp": "",
-    "address": "",
-    "hours": ""
+    "email": "contato@adstria.com.br",
+    "phone": "+55 11 99999-9999",
+    "whatsapp": "5511999999999",
+    "address": "São Paulo, SP",
+    "hours": "Segunda a sexta, das 9h às 18h"
   }
 }
