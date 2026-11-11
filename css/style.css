@@ -921,6 +921,8 @@ html[data-theme="light"] .rotate-word:not(.is-typing) {
   }
   .menu-open .site-nav { opacity: 1; visibility: visible; transform: none; }
 .menu-open .theme-toggle, .menu-open .menu-toggle { z-index: 120; position: relative; }
+  /* backdrop-filter no header vira containing block do menu fixo e o corta em 66px */
+  .menu-open .site-header { -webkit-backdrop-filter: none; backdrop-filter: none; }
   .nav-list { flex-direction: column; gap: 8px; text-align: center; }
   .nav-list a { font-size: 1.7rem; font-weight: 600; padding: 12px 20px; }
   .nav-list a::after { display: none; }

@@ -218,10 +218,8 @@
       var li = p.el.closest("li");
       if (!isSet(p.text)) { li.remove(); return; }
       any = true;
-      var tag = p.href ? "a" : "span";
-      if (p.href) { p.el.setAttribute("href", p.href); }
       var icon = '<i class="bi ' + ICONS[p.key] + '" aria-hidden="true"></i>';
-      li.innerHTML = icon + "<" + tag + ">" + p.text + "</" + tag + ">";
+      li.innerHTML = icon + (p.href ? '<a href="' + p.href + '">' + p.text + "</a>" : "<span>" + p.text + "</span>");
     });
     if (!any) hide("#footerContactCol");
 
