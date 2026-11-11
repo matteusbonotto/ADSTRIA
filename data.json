@@ -148,7 +148,9 @@
     "linksTitle": "Navegue",
     "note": "Feito com foco em performance"
   },
-  "social": [],
+  "social": [
+    { "slug": "instagram", "url": "https://www.instagram.com/adstria.com.br/" }
+  ],
   "contact": {
     "email": "contato.adstria@gmail.com",
     "phone": "+55 19 99606-1531",
